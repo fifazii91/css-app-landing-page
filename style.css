@@ -1,4 +1,209 @@
-/* Start coding here */
+/* Ter */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  background-color: #f6f6fb;
+}
+/* Header&Nav Style start */
+header {
+  height: 128px;
+  padding: 24px;
+  gap: 10px;
+}
+
+ nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1392px;
+  height: 80px;
+  padding: 12px 80px 12px 80px;
+  background-color: #fff;
+  border-radius: 99px;
+} 
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 420px;
+  height: 56px;
+  gap: 10px;
+  
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-weight: 500px;
+  color: #000;
+  padding: 16px 24px 16px 24px;
+}
+
+.menu li a span {
+  text-decoration: underline;
+  color: #5e44FF;
+}
+
+/* Header&Nav Style end */
+
+/* Section banner start */
+section {
+  height: 968px;
+  padding: 120px 120px 140px 120px;
+  gap: 120px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  width: 1200px;
+  height: 316px;
+}
+
+.acme-product {
+  width: 236px;
+  height: 40px;
+  border-radius: 999px;
+  padding: 8px 20px 8px 20px;
+  background-color: rgba(86, 58, 255, 0.1);
+}
+
+.acme-product p {
+  font-family: "Inter";
+  font-weight: 500px;
+  color: #5e44FF;
+}
+
+.banner-text {
+  width: 1200px;
+  height: 140px;
+  gap: 24px;
+}
+
+.banner-text h1 {
+  font-family: "Inter";
+  font-weight: 800px;
+  font-size: 80px;
+  height: 84px;
+}
+
+.banner-text span {
+color: rgba(94, 68, 255, 1);
+}
+
+.banner-text h3 {
+  font-family: "Inter";
+  font-weight: 600px;
+  font-size: 24px;
+  height: 32px;
+  margin-top: 30px;
+}
+
+button {
+  width: 187px;
+  height: 56px;
+  border-radius: 16px;
+  padding: 16px 36px;
+  gap: 6px;
+  background-color: black;
+  color: white;
+  font-family: "Inter";
+  font-weight: 600px;
+}
+
+button:hover {
+  cursor: pointer
+}
+/* Section banner end */
+/* Ter */
+
+/* O */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+
+.feature_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding: 50px;
+  width: 1201px;
+  margin-top: 80px;
+}
+
+.feature-1,
+.feature-2,
+.feature-3 {
+  width: 30%;
+  border-radius: 24px;
+  padding: 30px;
+  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+   
+}
+
+
+.feature-1 h1,
+.feature-2 h1,
+.feature-3 h1 {
+  color: #1a1a2c;
+  
+  font-size: 1.25rem;
+  padding-top: 20px;
+  }
+
+.feature-1 p,
+.feature-2 p,
+.feature-3 p {
+  color: #5f5f76;
+  padding-top: 10px;
+}
+
+svg {
+  background-color: white;
+  border-radius: 12px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  
+}
+
+.feature-1 {
+  background-color: #d7e5f6;
+}
+
+.feature-2 {
+  background-color: #d8e0fc;
+}
+
+.feature-3 {
+  background-color: #e8dcf6;
+}
+
+/*-------------animate-------------*/
+.feature-1:hover,
+.feature-2:hover,
+.feature-3:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Fifa */
 .container-contactsection {
   margin-top: 100px;
   display: flex;
@@ -78,80 +283,5 @@ footer {
   text-decoration: none;
   font-weight: bold;
 }
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-
-.feature_section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: stretch;
-  padding: 50px;
-  width: 100vw;
-  
-}
-
-.feature-1,
-.feature-2,
-.feature-3 {
-  width: 30%;
-  border-radius: 24px;
-  padding: 30px;
-  font-family: "Inter";
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  text-align: left;
-   
-}
-
-
-.feature-1 h1,
-.feature-2 h1,
-.feature-3 h1 {
-  color: #1a1a2c;
-  
-  font-size: 1.25rem;
-  padding-top: 20px;
-  }
-
-.feature-1 p,
-.feature-2 p,
-.feature-3 p {
-  color: #5f5f76;
-  padding-top: 10px;
-}
-
-svg {
-  background-color: white;
-  border-radius: 12px;
-  padding: 10px;
-  width: 50px;
-  height: 50px;
-  
-}
-
-.feature-1 {
-  background-color: #d7e5f6;
-}
-
-.feature-2 {
-  background-color: #d8e0fc;
-}
-
-.feature-3 {
-  background-color: #e8dcf6;
-}
-
-/*-------------animate-------------*/
-.feature-1:hover,
-.feature-2:hover,
-.feature-3:hover {
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-}
+/* Fifa */
