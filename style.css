@@ -78,3 +78,80 @@ footer {
   text-decoration: none;
   font-weight: bold;
 }
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.feature_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding: 50px;
+  width: 100vw;
+  
+}
+
+.feature-1,
+.feature-2,
+.feature-3 {
+  width: 30%;
+  border-radius: 24px;
+  padding: 30px;
+  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+   
+}
+
+
+.feature-1 h1,
+.feature-2 h1,
+.feature-3 h1 
+  color: #1a1a2c;
+  
+  font-size: 1.25rem;
+  padding-top: 20px;
+  }
+
+.feature-1 p,
+.feature-2 p,
+.feature-3 p {
+  color: #5f5f76;
+  padding-top: 10px;
+}
+
+svg {
+  background-color: white;
+  border-radius: 12px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  
+}
+
+.feature-1 {
+  background-color: #d7e5f6;
+}
+
+.feature-2 {
+  background-color: #d8e0fc;
+}
+
+.feature-3 {
+  background-color: #e8dcf6;
+}
+
+/*-------------animate-------------*/
+.feature-1:hover,
+.feature-2:hover,
+.feature-3:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
