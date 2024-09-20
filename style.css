@@ -200,6 +200,56 @@ svg {
 .feature-2:hover,
 .feature-3:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 128px;
+    gap: 10px;
+    padding: 24px;
+    background-color: #f6f6fb;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+section {
+    height: 968px;
+    padding: 120px 120px 140px 120px;
+    gap: 120px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 40px;
+    width: 1200px;
+    height: 316px;
+}
+
+.acme-product {
+    width: 236px;
+    height: 40px;
+}
+
+.boost {
+    height: 140px;
 }
 
 
@@ -209,6 +259,7 @@ top: 128px;
 padding: 120px 120px 140px 120px;
 gap: 120px;
 opacity: 0px;
+<<<<<<< HEAD
 */
 
 /* Fifa */
@@ -294,3 +345,6 @@ footer {
 
 
 
+=======
+*/
+>>>>>>> 70830baeaa675c8cc3d8c1115b8e435843a022d4
