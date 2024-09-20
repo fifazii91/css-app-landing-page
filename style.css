@@ -1,1 +1,80 @@
 /* Start coding here */
+.container-contactsection {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-contactsection {
+  font-size: 44px;
+}
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.label-contact {
+  font-size: 16px;
+}
+
+.input-contact {
+  width: 589px;
+  height: 48px;
+  font-size: 16px;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: 1px solid #e0e0ed;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea-contact {
+  width: 589px;
+  height: 102px;
+  font-size: 16px;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: 1px solid #e0e0ed;
+}
+
+.button-contact {
+  width: 589px;
+  height: 56px;
+  border-radius: 16px;
+  background-color: #1a1a2c;
+  color: white;
+  font-size: 16px;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright-footer {
+  color: #5f5f76;
+}
+
+.menu-footer {
+  flex-basis: 30%;
+  display: flex;
+  gap: 50px;
+}
+
+.menu-footer-link {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
