@@ -114,7 +114,7 @@ footer {
 
 .feature-1 h1,
 .feature-2 h1,
-.feature-3 h1 
+.feature-3 h1 {
   color: #1a1a2c;
   
   font-size: 1.25rem;
