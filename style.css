@@ -1,4 +1,66 @@
-/* Start coding here */
+/* Ter */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 128px;
+  gap: 10px;
+  padding: 24px;
+  background-color: #f6f6fb;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+section {
+  height: 968px;
+  padding: 120px 120px 140px 120px;
+  gap: 120px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  gap: 40px;
+  width: 1200px;
+  height: 316px;
+}
+
+.acme-product {
+  width: 236px;
+  height: 40px;
+}
+
+.boost {
+  height: 140px;
+}
+
+
+/* width: Fixed (1,440px)px;
+height: Hug (968px)px;
+top: 128px;
+padding: 120px 120px 140px 120px;
+gap: 120px;
+opacity: 0px;
+*/
+
+/* Fifa */
 .container-contactsection {
   margin-top: 100px;
   display: flex;
@@ -78,6 +140,8 @@ footer {
   text-decoration: none;
   font-weight: bold;
 }
+
+/* O */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 * {
@@ -155,3 +219,5 @@ svg {
 .feature-3:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
+
+
